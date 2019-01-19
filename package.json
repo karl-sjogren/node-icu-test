@@ -1,0 +1,14 @@
+{
+  "name": "node-icu-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "full-icu": "node --icu-data-dir=node_modules\\full-icu index.js",
+    "normal-icu": "node index.js"
+  },
+  "author": "Karl-Johan Sjögren",
+  "license": "MIT",
+  "dependencies": {
+    "full-icu": "^1.2.1"
+  }
+}
